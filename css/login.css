@@ -1,0 +1,46 @@
+.memberdiv {
+  opacity: 1.0;
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  border: 0.5px solid #ccc;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+h3 {
+  background-color: #ffa31a;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  margin-top: 0px;
+}
+.memberdiv,form,input {
+  text-align: center;
+}
+
+input[type=text], select {
+  padding: 10px 10px;
+  margin: 30px 0px 10px;
+  background-color:  #666666;
+  font-weight: 1000;
+  color: white;
+
+}
+
+.checkbox {
+  margin-left: 20px;
+  float: left;
+}
+input[type=submit], select {
+  margin-right: 20px;
+  float: right;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;
+}
